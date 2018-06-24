@@ -5,7 +5,7 @@ ini_set('html_errors', 'Off');
 error_reporting(E_ALL);
 
 $_GET += [
-    'pgsql' => 'project-db',
+    'pgsql' => 'project-database',
     'username' => 'docker_test',
     'password' => 'docker_test',
     'driver' => 'pgsql',

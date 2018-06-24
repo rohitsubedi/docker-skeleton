@@ -1,0 +1,20 @@
+version: '2'
+services:
+    project-app:
+        build: ./
+        container_name: "project-app"
+        ports:
+          - "80:80"
+        volumes:
+          - ./projects:/var/www
+    project-db:
+        container_name: "project-db"
+        image: onjin/alpine-postgres:9.5
+        restart: unless-stopped
+        ports:
+            - "5432:5432"
+        environment:
+            LC_ALL: C.UTF-8
+            POSTGRES_USER: docker_test
+            POSTGRES_PASSWORD: docker_test
+            POSTGRES_DB: docker_test

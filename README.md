@@ -5,13 +5,14 @@ Dockerized skeleton with nginx, php7.0 and postgres9.5
 
 Docker 
 
-https://docs.docker.com/engine/installation/
+https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-16-04
 
 Docker-compose
 
-https://docs.docker.com/v1.11/compose/install/
+https://www.digitalocean.com/community/tutorials/how-to-install-docker-compose-on-ubuntu-16-04
 
 ##### Note: you should be able to run docker without sudo
+https://docs.docker.com/install/linux/linux-postinstall/#manage-docker-as-a-non-root-user
 
 ## Installation
 
